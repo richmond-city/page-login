@@ -90,7 +90,7 @@ body{
 }
 
 .box form .input-box input:focus ~ i,
-.box form .input-box input:valid{
+.box form .input-box input:valid ~ i{
     bottom: 0;
     height: 100%;
 }
