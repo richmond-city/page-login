@@ -39,3 +39,10 @@ body{
     color: #fff;
     letter-spacing: 2px;
 }
+
+.box form .input-box{
+    position: relative;
+    width: 270px;
+    height: 35px;
+    margin-top: 35px;
+}
