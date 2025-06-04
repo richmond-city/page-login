@@ -21,6 +21,41 @@ body{
     overflow: hidden;
 }
 
+.box::before{
+    content: "";
+    position: absolute;
+    left: -50%;
+    top: -50%;
+    width: 100%;
+    height: 100%;
+    background:linear-gradient(0deg , transparent , rgb(43, 90, 219) ,rgb(43, 90, 219),rgb(43, 90, 219) );
+    transform-origin: right bottom;
+    animation: effect 3s linear infinite ;
+}
+
+.box::after{
+    content: "";
+    position: absolute;
+    left: -50%;
+    top: -50%;
+    width: 100%;
+    height: 100%;
+    background:linear-gradient(0deg , transparent , rgb(202, 20, 75) , rgb(202, 20, 75) , rgb(202, 20, 75) );
+    transform-origin: right bottom;
+    animation: effect 3s linear infinite ;
+    animation-delay: 1.3s;
+}
+
+@keyframes effect{
+    0%{
+        transform: rotate(0deg);
+    }
+
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
 .box form{
     position: absolute;
     inset: 4px;
@@ -30,6 +65,7 @@ body{
     display: flex;
     align-items: center;
     flex-direction: column;
+    z-index: 100;
 }
 
 .box form h1{
