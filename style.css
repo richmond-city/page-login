@@ -94,3 +94,23 @@ body{
     bottom: 0;
     height: 100%;
 }
+
+.link{
+    width: 270px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 35px;
+}
+
+.link a{
+    text-decoration: none;
+    color: #000;
+    font-size: 0.8rem;
+    text-transform: capitalize;
+}
+
+.link a:hover{
+    text-decoration: underline;
+    opacity: .5;
+}
