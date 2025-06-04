@@ -114,3 +114,23 @@ body{
     text-decoration: underline;
     opacity: .5;
 }
+
+input[type = "submit"]{
+    width: 100px;
+    height: 35px;
+    font-size: 1em;
+    text-transform: uppercase;
+    font-weight: bolder;
+    position: absolute;
+    bottom: 80px;
+    left: 50px;
+    outline: none;
+    border: none;
+    border-radius: 3px 8px 3px 8px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+input[type = "submit"]:hover{
+    opacity: 0.5;
+}
