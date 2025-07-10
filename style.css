@@ -22,3 +22,11 @@ body{
     position: relative;
     overflow: hidden;
 }
+
+.box form{
+    position: absolute;
+    inset: 4px;
+    background: #222;
+    border-radius: 8px;
+    padding: 30px 50px;
+}
