@@ -13,3 +13,12 @@ body{
     align-items: center;
     background: #222;
 }
+
+.box{
+    width: 360px;
+    height: 420px;
+    background: #2a2a2a;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
