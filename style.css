@@ -30,3 +30,10 @@ body{
     border-radius: 8px;
     padding: 30px 50px;
 }
+
+.box form h1{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    color: #fff;
+}
