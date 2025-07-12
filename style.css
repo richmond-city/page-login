@@ -90,3 +90,11 @@ body{
     height: 100%;
     border-radius: 7px;
 }
+
+.link{
+    width: 250px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
