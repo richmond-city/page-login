@@ -98,3 +98,16 @@ body{
     justify-content: space-between;
     align-items: center;
 }
+
+.link a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: bold;
+    color: #fff;
+    font-size: 0.9em;
+}
+
+.link a:hover{
+    color: #bfbfbf;
+    text-decoration: underline;
+}
